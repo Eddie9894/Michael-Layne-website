@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Michael Layne-Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Style the header */
+        header {
+            background-color: rgb(63, 186, 179);
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+
+        /* Container for flexboxes */
+        section {
+            display: -webkit-flex;
+            display: flex;
+        }
+
+        /* Style the navigation menu */
+        nav img {
+            border-radius: 50%
+        }
+
+        nav {
+            -webkit-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            background: #ccc;
+            padding: 20px;
+        }
+
+        /* Style the list inside the menu */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        /* Style the content */
+        article {
+            -webkit-flex: 3;
+            -ms-flex: 3;
+            flex: 3;
+            background-color: #f1f1f1;
+            padding: 10px;
+        }
+
+        /* Style the footer */
+        footer {
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+        @media (max-width: 600px) {
+            section {
+                -webkit-flex-direction: column;
+                flex-direction: column;
+            }
+        }
+    </style>
+    </head>
+
+    <body>
+
+
+        <header>
+            <h2>Michael Layne</h2>
+
+        </header>
+
+        <section>
+
+            <nav>
+                <img src="easy.jpg" alt="picture of Michael Layne" style="width:200px">
+                
+                <h1>Contact information</h1>
+                
+                <ul>
+                    <li style="padding-bottom:2%"><i class="fa fa-phone" style="padding-right: 3%"></i><a style="text-decoration: none" href="#">1(876) 447-8234</a></li>
+                    <li style="padding-bottom:2%"><i class="fa fa-envelope" style="padding-right: 3%"></i><a style="text-decoration: none" style="padding-left: 3%"href="#">michaellayne12@yahoo.com</a></li>
+                    <li style="padding-bottom:2%"><i class="fa fa-globe" style="padding-right: 3%"></i><a style="text-decoration: none" style="padding-left: 3%"href="#">www.mlayne.com</a></li>
+                </ul>
+
+                <hr>
+                
+                <h1>Social media</h1>
+                
+                <ul>
+                    <li style="padding-bottom:2%"><i class="fa fa-twitter" style="padding-right: 3%"></i><a style="text-decoration: none" href="#">eddyGriffin</a></li>
+                    <li style="padding-bottom:2%"><i class="fa fa-facebook" style="padding-right: 3%"></i><a style="text-decoration: none" style="padding-left: 3%"href="#">StraightfromtheDarkAge</a></li>
+                    <li style="padding-bottom:2%"><i class="fa fa-instagram" style="padding-right: 3%"></i><a style="text-decoration: none" style="padding-left: 3%"href="#">eddyGriffin</a></li>
+                </ul>
+
+
+            </nav>
+
+            <article>
+                <section>
+                    <h1 style="padding:3%">Bibliography</h1>
+                    <p>Motivated, innovative and creative Michael Layne is a young entrepenuer who started his own
+                        business at the age of 18 <br><br> Au79 STUDIOS</p>
+                </section>
+
+                <hr>
+
+                <section>
+                    <h1 style="padding:3%">Work Experience</h1>
+                    <p>Graphic designer -Owner of a Graphic Studios</p>
+                </section>
+
+                <hr>
+
+                <section>
+                    <h1 style="padding:3%">Education</h1>
+                    <p>Titchfield-Dipolma <br><br> University of the West Indies-Computer Science Degree(pending)</p>
+                </section>
+                
+                <hr>
+
+                <section>
+                    <h1 style="padding:3%">Skill/Expertise</h1>
+                    <ul>
+                        <li>Photoshop</li>
+                        <li>Premiere Pro</li>
+                        <li>Lightroom</li>
+                        <li>Inkscape</li>
+                        <li>After Effects</li>
+                    </ul>
+                </section>
+
+            </article>
+        </section>
+
+        <footer>
+            <p>Footer</p>
+        </footer>
+
+    </body>
+
+
+
+</html>

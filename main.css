@@ -1,0 +1,17 @@
+/* Responsive Grid, Using Flexbox*/
+
+.container {
+    display: flex; /* or inline-flex */
+  }
+  
+/* Default Colors */
+/* Add your default colors here */
+
+.light {
+    color: #ffffff;
+}
+
+.dark {
+    color: #000000;
+}
+
